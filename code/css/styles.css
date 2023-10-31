@@ -429,6 +429,7 @@ input[type='checkbox'] {
 .navbar .logo-image img {
     width: 126px;
 	height: 30px;
+	box-shadow: #00FFFF;
 }
 
 .navbar .logo-text {
@@ -479,6 +480,25 @@ input[type='checkbox'] {
 .navbar .nav-item .nav-link.active {
 	color: #17d7d4;
 }
+
+/* Define the glow effect animation 
+@keyframes neon-glow {
+    0% {
+        box-shadow: 0 0 5px #00FFFF; /* Neon blue glow effect 
+    }
+    50% {
+        box-shadow: 0 0 2px #00FFFF; /* Neon blue glow effect intensified 
+    }
+    100% {
+        box-shadow: 0 0 5px #00FFFF;  Neon blue glow effect 
+    }
+}
+
+Apply the glow effect to the image on hover 
+.glow-effect {
+    animation: neon-glow 1s infinite; Apply the neon glow effect on hover 
+}
+*/
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
@@ -563,8 +583,10 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7.5rem;
 	padding-bottom: 7.5rem;
+	height: 100%;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
+	opacity: 0.95;
 }
 
 .header .slider-container {
@@ -639,7 +661,7 @@ input[type='checkbox'] {
 .header .partner-container img {
 	display: block;
 	max-width: 100%;
-	height: auto;
+	height: 45px;
 	max-height: 36px;
 	margin-right: auto;
 	margin-bottom: 2.25rem;
