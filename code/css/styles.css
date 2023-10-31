@@ -410,7 +410,7 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #499299;
+	background-color: #031e3987;
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
@@ -477,7 +477,7 @@ input[type='checkbox'] {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #3dcac8;
+	color: #17d7d4;
 }
 
 /* Dropdown Menu */
