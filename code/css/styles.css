@@ -147,7 +147,7 @@ a.white:hover {
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
 	border: 1px solid #3dcac8;
 	border-radius: 32px;
-	background-color: #3dcac8;
+	background-color: #3dcac89c;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -768,6 +768,104 @@ Apply the glow effect to the image on hover
 		background-position: 1280px 0;
 	}
 }
+/** Read more animation **/
+/**
+.read {
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #00FFFF;
+	overflow: hidden;
+	padding: 30px 70px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0 20px 50px rgba(255 255 255 / 5%);
+}
+
+.read:before{
+	position: absolute;
+	width: 50%;
+	top: 2px;
+	left: 2px;
+	bottom: 2px;
+	content: '';
+	background: rgba(142 255 240 / 10%);
+}
+.read span:nth-child(1){
+	position: absolute;
+	width: 100%;
+	height: 5px;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right, #002b9d, #34ffea);
+	animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+	0%{
+		transform: translate(-100%);
+	}
+	100%{
+		transform: translate(100%);
+	}
+}
+.read span:nth-child(2){
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(to bottom, #002b9d, #34ffea);
+	animation: animate2 2s linear infinite;
+	animation-delay: 1s;
+}
+@keyframes animate2{
+	0%{
+		transform: translate(-100%);
+	}
+	100%{
+		transform: translate(100%);
+	}
+}
+.read span:nth-child(3){
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5px;
+	background: linear-gradient(to left, #002b9d, #34ffea);
+	animation: animate3 2s linear infinite;
+}
+@keyframes animate3{
+	0%{
+		transform: translate(100%);
+	}
+	100%{
+		transform: translate(-100%);
+	}
+}
+.read span:nth-child(4){
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 100%;
+	background: linear-gradient(to top, #002b9d, #34ffea);
+	animation: animate4 2s linear infinite;
+	animation-delay: 1s;
+}
+@keyframes animate4{
+	0%{
+		transform: translate(100%);
+	}
+	100%{
+		transform: translate(-100%);
+	}
+}**/
+
+
 
 /*********************/
 /*     Details 1     */
@@ -838,7 +936,7 @@ Apply the glow effect to the image on hover
 	margin-left: 0;
 	height: 2px;
 	border: none;
-	background-color: #3dcac8;
+	background-color: #24e0dd;
 }
 
 .lightbox-basic h4 {
@@ -1100,7 +1198,8 @@ Apply the glow effect to the image on hover
 .slider-1 {
 	padding-top: 9rem;
 	padding-bottom: 11rem;
-	background: url('../images/testimonials-background.jpg') center bottom no-repeat;
+	/*background: url('../images/testimonials-background.jpg') center bottom no-repeat;*/
+	background-color: #0b0433;
 	background-size: cover; 
 }
 
