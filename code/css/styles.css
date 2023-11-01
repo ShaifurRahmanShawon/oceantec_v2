@@ -584,7 +584,7 @@ Apply the glow effect to the image on hover
 	padding-top: 7.5rem;
 	padding-bottom: 7.5rem;
 	height: 100%;
-	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../images/header-background 2.jpg') center center no-repeat;
 	background-size: cover;
 	opacity: 0.95;
 }
@@ -873,7 +873,7 @@ Apply the glow effect to the image on hover
 .basic-1 {
 	padding-top: 2.5rem;
 	padding-bottom: 6rem;
-	background: url('../images/details-1-background.jpg') center center no-repeat;
+	/**background: url('../images/details-1-background.jpg') center center no-repeat;**/
 	background-size: cover;
 }
 
@@ -884,6 +884,10 @@ Apply the glow effect to the image on hover
 .basic-1 .image-container img {
 	border-radius: 0.25rem;
 }
+.img-fluid1 {
+	max-width: 80%;
+	max-height: 60%;
+  }
 
 .basic-1 h2 {
 	margin-bottom: 1.25rem;
@@ -1569,7 +1573,7 @@ a:hover.back-to-top {
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
-		background-color: #40516e;
+		background-color: #084064;
 		box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
 	}
 
