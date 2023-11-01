@@ -754,7 +754,7 @@ Apply the glow effect to the image on hover
 	border-radius: 50%;
 	background: transparent url(../images/earth.png);
 	background-size: cover;
-	box-shadow: inset 0px -20px 50px 10px #00ffff80, 0px 0px 30px 6px #00ffff70;
+	box-shadow: inset 0px -20px 30px 10px #00ffff80, 0px 0px 30px 6px #00ffff70;
 	transform-style: preserve-3d;	
 	transform: rotate(20deg);
 	animation: rotate 60s linear infinite;
@@ -1201,8 +1201,8 @@ Apply the glow effect to the image on hover
 /************************/
 .slider-1 {
 	padding-top: 9rem;
-	padding-bottom: 11rem;
-	/*background: url('../images/testimonials-background.jpg') center bottom no-repeat;*/
+	padding-bottom: 9rem;
+	background: url('../images/testimonials-background.jpg') center bottom no-repeat;
 	background-color: #0b0433;
 	background-size: cover; 
 }
