@@ -1202,7 +1202,7 @@ Apply the glow effect to the image on hover
 .slider-1 {
 	padding-top: 9rem;
 	padding-bottom: 9rem;
-	background: url('../images/testimonials-background.jpg') center bottom no-repeat;
+	/* background: url('../images/testimonials-background.jpg') center bottom no-repeat; */
 	background-color: #0b0433;
 	background-size: cover; 
 }
