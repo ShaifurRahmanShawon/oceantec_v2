@@ -410,11 +410,11 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #031e3987;
+	/*background-color: #031e3987;*/
 	font-weight: 600;
 	font-size: 0.875rem;
 	line-height: 0.875rem;
-	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	/*box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);*/
 }
 
 .navbar .container {
@@ -445,12 +445,12 @@ input[type='checkbox'] {
 	top: 3.25rem; /* adjusts the height between the top of the page and the offcanvas menu */
 	bottom: 0;
 	left: 100%;
-	width: 100%;
+	width: 50%;
 	padding-right: 1rem;
 	padding-left: 1rem;
 	overflow-y: auto;
 	visibility: hidden;
-	background-color: #18bbe0;
+	background-color: #1f505bd7;
 	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
 	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
@@ -588,7 +588,6 @@ Apply the glow effect to the image on hover
 	background-size: cover;
 	opacity: 0.95;
 }
-
 .header .slider-container {
 	position: relative;
 	margin-bottom: 4rem;
