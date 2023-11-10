@@ -2010,9 +2010,9 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #48939f36;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 1px solid #14cfdcc7;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -2034,11 +2034,11 @@ pre code {
 }
 
 .form-control:focus {
-  color: #495057;
-  background-color: #fff;
+  color: #eff1f4;
+  background-color: #23cfca5c;
   border-color: #80bdff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: 0 0 0 0.1rem rgba(4, 176, 176, 0.91);
 }
 
 .form-control::-webkit-input-placeholder {
