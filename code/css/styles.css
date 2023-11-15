@@ -40,7 +40,7 @@ html {
 }
 
 body, p {
-	color: #FFFFFF; 
+	color: #07475a; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
@@ -139,7 +139,7 @@ a.white:hover {
 }
 
 .bg-dark-blue {
-	background-color: #0b0433;
+	background-color: #94D4DE;
 }
 
 .btn-solid-reg {
@@ -1323,7 +1323,7 @@ Apply the glow effect to the image on hover
 	padding-top: 6rem;
 	padding-bottom: 2rem;
 	border-top: 1px solid #3c3758;
-	background-color: #06021f;
+	background-color: #3c3758;
 }
 
 .footer a {
@@ -1380,7 +1380,7 @@ Apply the glow effect to the image on hover
 /*********************/
 .copyright {
 	padding-bottom: 1rem;
-	background-color: #06021f;
+	background-color: #3c3758;
 	text-align: center;
 }
 
