@@ -74,6 +74,11 @@
 
     
     /* Text Slider - Swiper */
+    
+      var copy = document.querySelector(".logos-slide").cloneNode(true);
+      document.querySelector(".logos").appendChild(copy);
+    
+
 	var textSlider = new Swiper('.text-slider', {
         autoplay: {
             delay: 6000,
